@@ -13,7 +13,19 @@ gem install compass
 2. ``cd thingy``
 3. ``jekyll --server --auto && compass watch . &``
 
+## Offerings
+        
+* _config.yml - mostly defaults, references commented
+* _layouts
+ * default.html - HTML5 Boilerplate Layout that makes uses of includes and has some sample liquid code to jumpstart your template.
+* _includes    
+ * analytics.html
+ * head.html
+ * scripts.html  
+* _posts - a sample post
+* index.md - a basic index page
+* index.md - a basic 'other' page, demoing permalinks
+
 ## Improvements
 
-* I wanna get config.rb out of _site
 * More default templatey goodies.
