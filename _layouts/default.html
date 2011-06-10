@@ -1,0 +1,28 @@
+{% include head.html %}
+<body>
+
+  <div id="container">
+    <header>
+
+    </header>
+    <div id="main" role="main">
+      {{ content }}
+    </div>
+    <footer>        
+      <h3>Site Pages</h3>
+      <ul>
+        <li><a href="/" rel="home">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+      <h3>Blog Posts</h3>          
+      <ul>
+        {% for post in site.posts %}
+          <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </footer>
+  </div> <!--! end of #container -->
+{% include scripts.html %}	        
+{% include analytics.html %}
+</body>
+</html>
