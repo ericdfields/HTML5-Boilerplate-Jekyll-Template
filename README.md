@@ -4,6 +4,7 @@ Yup! The world needs this!&trade;
 
 ``
 gem install jekyll
+
 gem install compass
 ``
 
@@ -17,15 +18,20 @@ gem install compass
         
 * _config.yml - mostly defaults, references commented
 * _layouts
- * default.html - HTML5 Boilerplate Layout that makes uses of includes and has some sample liquid code to jumpstart your template.
+ * default.html - HTML5 Boilerplate Layout that makes uses of includes and has some sample code to jumpstart your template.
 * _includes    
  * analytics.html
+ * chromeframe.html
  * head.html
  * scripts.html  
 * _posts - a sample post
 * index.md - a basic index page
-* index.md - a basic 'other' page, demoing permalinks
+* about.md - a basic 'other' page, demoing permalinks
 
 ## Improvements
 
-* More default templatey goodies.
+* More default templatey goodies??
+
+## Feedback
+
+* Please open bugs, fork, wiki, etc.
