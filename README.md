@@ -2,11 +2,8 @@
 
 Yup! The world needs this!&trade;
 
-``
-gem install jekyll
-
-gem install compass
-``
+    gem install jekyll
+    gem install compass
 
 ## WHAT I DO???
 
